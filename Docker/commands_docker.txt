@@ -1,0 +1,9 @@
+1.docker build -t hello-world .
+2.docker images
+3.docker run -d -p 8080:8080 hello-world
+4.docker ps
+5.docker ps -a
+6.docker exec -it f573443ab5df bash
+
+
+ 

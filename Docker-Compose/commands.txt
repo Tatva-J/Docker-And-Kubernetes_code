@@ -1,0 +1,5 @@
+1. docker-compose run web django-admin startproject composeexample .
+2. docker-compose up
+3. docker ps
+4. docker-compose images
+5. docker-compose top

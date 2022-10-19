@@ -1,0 +1,6 @@
+1. docker build -f Dockerfile -t demok8s:latest .
+2. docker run -p 5001:5000 demok8s
+3. kubectl config use-context docker-desktop
+4. kubectl get nodes
+5. kubectl apply -f deployment.yaml
+6. kubectl get pods

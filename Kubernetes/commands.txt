@@ -1,0 +1,10 @@
+1.  docker build -t demo .
+2.  docker run -p 5001:5000 -t -i demo:latest
+3.  docker login
+4.  docker images(get the id of the image that we built)
+5.  docker tag e8fadf1aa21b tjj2000/demo
+6.  docker push tjj2000/demo
+7.  kubectl apply -f .\pod.yaml
+8.  kubectl apply -f .\nodeport.yml
+9.  kubectl get pods
+10. kubectl get services
